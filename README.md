@@ -1,4 +1,4 @@
-# 🍺🔨 Technical Challenge - AmbecTech 🍻
+# 🔨 Technical Challenge - UDS Company ⚙️
 
 ## 📌 1. Introduction
 This test plan aims to validate the primary functionalities testing Swag Labs application in your [Frontend](https://www.saucedemo.com/) and [Restful-booker API](https://restful-booker.herokuapp.com/apidoc/index.html) versions, ensuring users have a consistent and error-free experience. 
