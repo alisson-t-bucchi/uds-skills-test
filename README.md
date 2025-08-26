@@ -69,10 +69,10 @@ The 6 test cases are located in the e2e folder and must adhere to the business r
 ### **🧪 Cypress API Tests**  
 | Test name               | Test Case                           | Steps                                                                                                                       | Expected Result                            |
 |------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| Valid User Login       | Create booking and validate response body | 1. Send POST request to `/login` with valid dates<br>2. Return the same data with valid response <br>3. Check for `authorization` property | Response status 200 and token returned     |
-| Product Registration   | Register product with admin token    | 1. Login with admin user to get token<br>2. Send POST request to `/produtos` with product data and token<br>3. Validate status and message | Response status 201 and successfull message    |
-| User Registration      | Register new user successfully        | 1. Send POST request to `/users` with unique email and valid data<br>2. Validate response status<br>3. Check success message in response | Response status 201 and success message    |
-
+| Valid User Login       | Create booking and validate response body testing | 1. Send POST request to `/login` with valid dates<br>2. Return the same data with valid response <br>3. Check for `authorization` property | Response status 200     |
+| Search for booking firstname and verification of bookingID list   | Firstname and bookingID confirmation test   | 1. Send a GET to a url with the firstname product<br> 2. Validate status and message | Response status 200    |
+| Booking error with invalid payload      | Booking error testing        | 1. Send POST request to `/booking` with a body thats include a invalid payload<br>2. Check error message in response | Response status 400 or 500 values    |
+| Search for a invalid name      | Firstname error testing        | 1. Send GET request to `/booking` with a url thats include de firstname of an inexistent registration<br> | Response status 200 with a empty array    |
 
 ## 📌 5. Setting up the environment
 
