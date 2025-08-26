@@ -1,0 +1,23 @@
+# Cypress folders
+cypress/screenshots/
+cypress/videos/
+
+# Cypress binary cache
+node_modules/.cache/
+
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+.env.local
+.env.*.local
