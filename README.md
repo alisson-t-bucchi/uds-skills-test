@@ -125,7 +125,7 @@ npm run cy:open
 
 ---
 
-## 📌 6. Conclusion
+## 📌 7. Conclusion
 This plan covers the essential flows required by the AmbevTech QA position test. Additional cases can be added as needed to cover more user scenarios.
 
 🚀 **Happy Testing! Created with 💖 by Alisson Bucchi**
